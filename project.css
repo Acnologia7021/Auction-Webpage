@@ -1,0 +1,168 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding:10px ; */
+    background-color: black;
+    box-shadow: 0 5px 8px rgba(rgb(225, 52, 52),rgb(51, 255, 51),rgb(2, 2, 239),alpha);
+    opacity: 0.8;
+}
+#header ul li{
+    content: '';
+    height: 100px;
+    position: relative;
+    text-indent: -10px;
+}
+#div_navbar{
+    display: inline;
+}
+#ul_navabar ,li{
+    display: inline;
+    margin: auto;
+
+}
+#ul_navabar ,li,a{
+    text-decoration: none;
+    text-indent: -10px;
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+   
+}
+#ul_navabar ,li  :hover{
+    bottom: -10px;
+    color:rgb(1, 252, 240);
+    transition: 2000ms;
+    text-decoration: underline 2px ;
+    height: 300px;
+    
+
+   
+}
+#ul_navabar ,li  a:hover,
+#ul_navabar ,li a.active{
+    color:aqua;
+}
+body {
+    background-image:url(pexels-obi-onyeador-13009437.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+
+}
+div.transbox {
+    margin: 30px;
+    background-color:white;
+    height: max-content ;
+    opacity: 0.9;
+}
+#hero_Image{
+    
+    padding: 30px;
+    float:right;
+    width: 300px;
+    height: 300px;
+
+
+}
+#content, h1 ,h3{
+    padding: 20px 30px ;
+    font-size: 20px;
+    padding: auto;
+}
+#hero_text{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 10px;
+
+
+}
+#hero_text11{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding: 10px;
+}
+.li_Image{
+    background-color: rgb(255, 255, 255);
+    opacity:1;
+    height: 300px;
+    padding: 10px;
+
+
+}
+#auction{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    
+
+}
+.Image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Intro {
+    font-size: 24px;
+    justify-content: center;
+    padding: 10px;
+
+}
+#Wel{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 10px;
+  color:black;
+  
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color:black;
+    margin: 20px 10px;
+    border: 2px solid #08f3f7;
+    width: 100px;
+    height: 50px;
+
+}
+button:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+    background-color: #08f3f7;
+    transition-property: unset;
+    transition-duration: 2000ms;
+    margin: 20px 10px;
+    border: 2px solid #08f3f7;
+    width: 100px;
+    height: 50px;
+}
+
+.Image ,p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+
+
+}
